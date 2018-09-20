@@ -1,7 +1,7 @@
 FROM alpine
 MAINTAINER Anatoly <atolia@gmail.com>
 
-ENV REDIS_VERSION 3.2.6
+ENV REDIS_VERSION 4.0.11
 ENV REDIS_DOWNLOAD_URL http://download.redis.io/releases/redis-${REDIS_VERSION}.tar.gz
 
 RUN apk update && apk upgrade \
